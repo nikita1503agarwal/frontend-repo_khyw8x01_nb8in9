@@ -5,7 +5,8 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-[100svh] overflow-hidden">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        {/* Replaced with a 3D human scene that includes built-in idle animation */}
+        <Spline scene="https://prod.spline.design/kbIYtWl7zS5uIcfH/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/30 to-white/80 pointer-events-none" />
